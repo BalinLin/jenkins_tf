@@ -1,7 +1,7 @@
 `Jenkins: v2.375.1` `terraform: v1.3.6`
 
 ## Run the project.
-1. [Run jenkins with docker](https://hub.docker.com/_/jenkins#:~:text=out%20jenkinsci/jenkins-,How%20to%20use%20this%20image,-docker%20run%20%2Dp)
+1. [Run jenkins with docker](https://hub.docker.com/_/jenkins)
 ```bash
 docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v $HOME:/var/jenkins_home jenkins/jenkins:lts-jdk11
 ```
